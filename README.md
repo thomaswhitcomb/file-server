@@ -1,6 +1,6 @@
 # file-server
 
-# Build
+## Build
     > make
-# Run
+## Run
     > ./bin/file-server -d data -p 8080
