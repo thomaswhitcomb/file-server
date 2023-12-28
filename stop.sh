@@ -1,3 +1,3 @@
-PID=`ps | grep file-server | cut -f2 -d ' '`
+PID=`ps -eo pid,comm | grep file-server | cut -f3 -d ' '`
 echo Killing $PID
-kill $PID
+kill -9 $PID
